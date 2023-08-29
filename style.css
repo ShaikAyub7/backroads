@@ -225,6 +225,7 @@ background-size: cover;
   top: 0;
   left: 0;
   border-radius: 10px;
+  box-shadow: 100px solid black;
  
   
 }
@@ -244,8 +245,8 @@ background-size: cover;
    display: flex;
    text-align: center;
    justify-content: space-evenly;
-   border: 2px solid lightslategray;
-   border-radius: 10px;
+   border: 2px solid var(--clr-grey-9);
+   border-radius: 5px;
   
 
 
@@ -436,5 +437,13 @@ footer{
   padding: 2rem;
   float: left;
   margin-left: 7rem;
+  
+}
+@media screen and (width:390px) {
+  footer{
+  height: fit-content;
+  display: block;
+  padding: 10px;
+  }
   
 }
