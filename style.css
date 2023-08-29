@@ -420,6 +420,8 @@ footer{
   background:black;
   color: white;
   font-size: 1.5rem; 
+  height: fit-content;
+  padding: 20px;
   
   /* background-image: url(./images/logo.svg); */
   /* background-size: 100px; */
@@ -444,6 +446,7 @@ footer{
   height: fit-content;
   display: block;
   padding: 10px;
+  padding-left: 10px;
   }
   
 }
