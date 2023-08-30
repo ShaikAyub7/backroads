@@ -242,15 +242,21 @@ background-size: cover;
 }
 .second-navbar{
   background:var(--clr-primary-10);
-   display: flex;
-   text-align: center;
+   display:flex;
+   align-items: center;
    justify-content: space-evenly;
-   border: 2px solid var(--clr-grey-9);
+   border: 2px solid cyan; 
    border-radius: 5px;
-  
+   padding: 10px;
 
-
-
+}
+.border:hover{
+  background:lightblue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  object-fit: cover;
+  color: red;
+  padding: 5px;
 }
   .about-photo{
     height: 100%;
