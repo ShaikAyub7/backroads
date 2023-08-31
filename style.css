@@ -253,12 +253,12 @@ background-size: cover;
 
 
 .border:hover{
-  background:lightblue;
+  background:lightgoldenrodyellow;
   border-radius: 5px;
   box-sizing: border-box;
   object-fit: cover;
-  color: red;
-  padding: 5px; 
+  color:darkred;
+   
 }
 
 /* .navbar{
